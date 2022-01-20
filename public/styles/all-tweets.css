@@ -1,0 +1,68 @@
+.tweet{
+  background-color: #e6e3df;
+  font-weight: 600;
+  border: 3px solid var(--color-accent);
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 3rem 0;
+}
+
+.tweet:hover {
+  -webkit-box-shadow: 5px 7px 15px -1px #4A4A4A; 
+  box-shadow: 5px 7px 15px -1px #4A4A4A;
+  -moz-box-shadow: 5px 7px 15px -1px #4A4A4A;
+}
+
+.tweet header {
+  border-bottom: 3px solid var(--color-accent);
+  padding: 0.5rem;
+}
+
+.tweet-author {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-author div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tweet-author img {
+  padding-right: 0.5rem;
+}
+
+.tweet-author-name {
+  font-weight: 300;
+  padding-top: 0.5rem;
+}
+
+.tweet-author-handle{
+  padding-top:0.25rem;
+  color: #a8a7a7;
+}
+
+.tweet-text {
+  padding: 1.5rem 0;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.tweet footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+.tweet-icons i {
+  color: var(--color-accent);
+  cursor: pointer;
+  text-shadow: 0 2px 3px #4A4A4A;
+}
+.tweet-icons i:hover {
+  color: var(--color-primary);
+}

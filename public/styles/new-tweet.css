@@ -1,0 +1,84 @@
+.error {
+  display: none;
+  cursor: pointer;
+  border: 1px solid;
+  margin: 1rem 0;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #c74349;
+  background-color: #FFBABA;
+}
+
+.new-tweet{
+  display: none;
+}
+
+.tweet-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-input{
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-input label {
+  font-weight: 600;
+}
+
+.tweet-input textarea {
+  outline: none;
+  resize: none;
+  border-bottom: 3px solid var(--color-grey);
+  height: 40px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tweet-input textarea:focus-visible {
+  border-bottom: 5px solid var(--color-primary);
+}
+
+.tweet-submit {
+  font-family: var(--font-accent);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tweet-btn {
+  border-radius: 3px;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--color-light-text);
+  background-color: var(--color-accent);
+  -webkit-box-shadow: 5px 7px 15px -1px #4A4A4A; 
+  box-shadow: 5px 7px 15px -1px #4A4A4A;
+  -moz-box-shadow: 5px 7px 15px -1px #4A4A4A;
+  font-size: 20px;;
+}
+
+.tweet-btn:hover {
+	opacity: 0.9;
+}
+
+.tweet-btn:focus-visible, .tweet-btn:active {
+	box-shadow: 0 0 0 0.2rem #7a7acc;
+}
+
+.red {
+  color: red;
+}
+
+.counter {
+  text-shadow: 0 2px 3px #4A4A4A;
+}
